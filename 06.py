@@ -86,7 +86,7 @@ mak_charge=845
 total_gold_rate =gram*gold_price
 Making_charges =gram*mak_charge
 total_amount=total_gold_rate + Making_charges
-if gender=='M' or 'm':
+if gender=='M' or gender=='m':
 
     if age>=65 :
 
@@ -134,7 +134,7 @@ if gender=='M' or 'm':
     else:
         print("please enter a valid age ")
 
-elif gender=='F' or 'f':
+elif gender=='F' or gender=='f':
 
     if age>=65 :
 
